@@ -35,8 +35,9 @@ public class ClientStr {
     }
     public void comunica() {
         try {
+            System.out.println(inDalServer.readLine());
+
             while (!win) {
-                System.out.println("inserisci la stringa da trasmettere al server:" + '\n');
                 stringaUtente = input.next();
                 outVersoServer.writeBytes(stringaUtente + '\n');
 

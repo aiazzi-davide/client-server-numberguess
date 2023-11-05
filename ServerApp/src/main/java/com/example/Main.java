@@ -7,6 +7,5 @@ public class Main
         
         ServerStr server = new ServerStr();
         server.attendi(3000);
-        server.comunica();
     }
 }
